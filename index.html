@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+    <section class="welcome" id="slide1">
+        <div class="content">
+            <h1>Welcome</h1>
+            <h2>We are <em><strong>Anna-Maria</strong></em> and <em><strong>Jon</strong></em></h2>
+        </div>
+        <a href="#slide2"><button>next</button></a>
+    </section>
+    <section class="agenda" id="slide2">
+        <div class="content">
+            <h1>Agenda</h1>
+            <h2>Game Overview</h2>
+            <h2>Code Review</h2>
+        </div>
+        <a href="#slide3"><button>next</button></a>
+    </section>
+    <section class="game" id="slide3">
+        <div class="content">
+            <h1>Game Overview</h1>
+            <img src="assets/img/game_screen.png" alt="">
+        </div>
+        <a href="#slide4"><button>next</button></a>
+    </section>
+    <section class="code-1" id="slide4">
+        <div class="content">
+            <h1>Code we are proud of</h1>
+            <img src="assets/img/code_1.png" alt="">
+            <h3>We used Regular Expressions to get all the digits</h3>
+        </div>
+        <a href="#slide5"><button>next</button></a>
+    </section>
+    <section class="code-2">
+        <div class="content" id="slide5">
+            <h1>Code we are angry at</h1>
+            <img src="assets/img/angry-code.png" alt="">
+            <h3>We had to use a function that takes the same parameters as the level 7 function</h3>
+        </div>
+        <a href="#slide1"><button>Back to Top</button></a>
+    </section>
+</body>
+</html>
